@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Temporizador</string>
+    <string name="start">Comienzo</string>
+    <string name="stop">Detener</string>
+</resources>

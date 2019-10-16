@@ -1,0 +1,61 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="202dp"
+    tools:layout_editor_absoluteY="363dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuition Calculator"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/creditET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(in credit hours)"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tuitionET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:text="Tuition:" />
+
+    <TextView
+        android:id="@+id/feesET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fees:"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp" />
+
+    <TextView
+        android:id="@+id/totalET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total:"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp" />
+</LinearLayout>

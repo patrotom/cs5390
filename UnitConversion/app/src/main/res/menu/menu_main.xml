@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.utep.cs.cs4330.unitconversion.MainActivity">
+    <item
+        android:id="@+id/action_ft_to_m"
+        android:orderInCategory="100"
+        android:title="Feet to Meters"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_in_to_cm"
+        android:orderInCategory="101"
+        android:title="Inches to Centimeters"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_lb_to_g"
+        android:orderInCategory="102"
+        android:title="Pounds to Grams"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_quit"
+        android:orderInCategory="103"
+        android:title="Quit"
+        app:showAsAction="never" />
+
+</menu>
