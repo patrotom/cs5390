@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyMusicPlayer.iml" filepath="$PROJECT_DIR$/MyMusicPlayer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file:///mnt/76B2437FB24342BB/utep/courses/cs_5390_special_topic_computer_science/cs5390_inclass/MyMusicPlayer/My Music Player.iml" filepath="/mnt/76B2437FB24342BB/utep/courses/cs_5390_special_topic_computer_science/cs5390_inclass/MyMusicPlayer/My Music Player.iml" />
+      <module fileurl="file:///mnt/76B2437FB24342BB/utep/courses/cs_5390_special_topic_computer_science/cs5390_inclass/MyMusicPlayer/app/app.iml" filepath="/mnt/76B2437FB24342BB/utep/courses/cs_5390_special_topic_computer_science/cs5390_inclass/MyMusicPlayer/app/app.iml" />
     </modules>
   </component>
 </project>

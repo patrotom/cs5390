@@ -3,12 +3,13 @@ package edu.utep.cs.cs4330.mymusicplayer;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
                 //showProgressThread(player);
                 //showProgressHandler(player);
                 //--
+
+                new Thread(() -> {
+
+                }).start();
+
             } else {
                 toast("Failed!");
             }
